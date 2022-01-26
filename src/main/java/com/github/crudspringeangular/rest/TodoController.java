@@ -22,7 +22,7 @@ import com.github.crudspringeangular.repository.TodoRepository;
 
 @RestController
 @RequestMapping("/api/todos")
-@CrossOrigin("*")
+@CrossOrigin("https://yurivaz.github.io/")
 public class TodoController {
 	
 	@Autowired
